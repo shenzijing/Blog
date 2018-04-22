@@ -104,10 +104,10 @@ img {
  */
 
 #site-header {
-    background-color: #FFF;
+    /*background-color: #FFF;*/
     padding: 25px 20px;
     margin-bottom: 40px;
-    border-bottom: 1px solid #e7e7e7;
+    border-bottom: 1px solid #000;
 }
 
 .copyrights {
@@ -336,7 +336,7 @@ img {
  */
 
 .widget {
-    background: #fff;
+    /*background: #fff;*/
     padding: 30px 0 0;
 }
 
@@ -689,6 +689,7 @@ img {
     font-size: 16px;
     line-height: 100%;
     transition: 0.4s border-color linear;
+    background-color: transparent;
 }
 
 .contact-form textarea, .comment-form textarea {
@@ -700,6 +701,7 @@ img {
     line-height: 20px !important;
     min-height: 183px;
     transition: 0.4s border-color linear;
+    background-color: transparent;
 }
 
 .contact-form input:focus, .comment-form input:focus,
@@ -847,7 +849,8 @@ img {
 }
 
 .comment-form .comment-btn {
-    background-color: #fff;
+    /*background-color: #fff;*/
+        background-color: transparent;
     border: 1px solid #aaa;
     font-size: 16px;
     padding: 5px 10px;
@@ -903,3 +906,4 @@ img {
 .current a {
     color: red;
 }
+
